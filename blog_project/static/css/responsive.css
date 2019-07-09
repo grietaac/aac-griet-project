@@ -1,0 +1,88 @@
+/* responsive CSS*/
+/* Nav Bar & LOGO*/
+
+
+@media(max-width: 700px) {
+
+    nav .logo img {
+            position: fixed;
+            top:0;
+            margin-top: 2px;
+            height: 70px;
+
+      }
+    nav.black .logo img{
+      	height: 70px;
+      }
+      nav ul {
+            max-height: 0px;
+            background: rgba(0,0,0,0.2);
+              overflow-y:scroll;
+      }
+      nav.black ul {
+            background: rgba(0,0,0,0.2);
+      }
+      .showing {
+            max-height: auto;
+      }
+      nav ul li {
+            width: 100%;
+            padding: 14px;
+            text-align: center;
+      }
+      .menu-icon {
+            display: block;
+      }
+    	nav ul li a.active,
+    	nav ul li a:hover{
+    	color:#fff;
+    	}
+      nav ul li {
+            display: block;
+      }
+      nav ul ul {
+            position: static;
+            display: block;
+            background: rgba(0,0,0,0);
+             text-align: center;
+
+
+    }
+    nav.black ul ul li{
+      background: rgba(0,0,0,0);
+
+    }
+
+
+
+}
+
+/* Drone PNG & AAC logo on home page */
+@media(max-width: 768px) {
+	.drone img{
+		height: 120px;
+
+	}
+	.aaclogo{
+	position: absolute;
+	top: 60%;
+	left: 25%;
+
+}
+	.aaclogo img{
+		height: 130px;
+	}
+
+.about-panel{
+	height: 140vh;
+}
+
+
+#particles-js{
+  height: 88vh;
+}
+
+
+
+
+}
